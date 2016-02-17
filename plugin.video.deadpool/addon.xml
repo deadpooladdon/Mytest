@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.deadpool"
+       name="[COLOR red]Deadpool[/COLOR]"
+       version="0.15.0"
+       provider-name="PcFixers">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Sursum Versus</summary>
+    <description>
+	Este addon se mantiene gracias a las donaciones.
+	Todo el dinero donado se gasta en costos de mantenimiento.
+	El Donar Te Da:
+	Inmunidad En El grupo de[COLOR deepskyblue] Facebook[/COLOR] Deadpool Multimedia
+	Apoyo Premium Y soporte Tecnico De Parte De Los Creadores.
+	Si Gustas Ver Alguna Pelicula o Serie En Especial Y Quieres Que La Pongamos.
+	El Placer y la distincion de saber que estas ayudando a proveer el mejor addon y el mejor servicio posible
+	Donaciones Via OXXO Saldazo[COLOR lime]  4766 8402 6573 7291[/COLOR]
+	Donaciones Via PayPal a[COLOR lime] copycat58@gmail.com[/COLOR]
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
